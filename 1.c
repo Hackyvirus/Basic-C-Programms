@@ -1,5 +1,5 @@
 // Area of Rectangle by hard coding variables
-#include <stdio.h>
+#include <stdio.h> 
 
 int main(){
     int sideA, sideB, Area;
