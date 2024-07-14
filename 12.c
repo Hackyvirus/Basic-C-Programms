@@ -3,7 +3,8 @@
 // b. Using inputs supplied by the user.
 
 #include <stdio.h>
-int main() {
+int main()
+{
   float side1, side2, areaOfReactangle;
   printf("Enter the value of side 1: ");
   scanf("%f", &side1);

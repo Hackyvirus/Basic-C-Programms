@@ -4,7 +4,8 @@
 // function prototype
 float converter(float);
 
-int main() {
+int main()
+{
   float temp_in_c;
   printf("Enter the tempreture to convert into Fah: ");
   scanf("%f", &temp_in_c);
@@ -13,7 +14,8 @@ int main() {
   printf("Thank For Using our Services...");
 }
 
-float converter(float cel) {
+float converter(float cel)
+{
   float fah = (cel * 9 / 5) + 32;
   return fah;
 };
